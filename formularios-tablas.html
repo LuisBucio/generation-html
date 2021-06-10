@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios y tablas</title>
+</head>
+<body>
+    <h1>Formularios y tablas</h1>
+    <table border="1">
+        <tr>
+            <td>celda 1</td>
+            <td>celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+        <tr>
+            <td>celda 4</td>
+            <td>celda 5</td>
+            <td>celda 6</td>
+        </tr>
+    </table><br><br>
+    <table border="2">
+        <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sabado</th>
+            <th>Domingo</th>
+        </tr>
+        <tr>
+            <td>Introduccion a HTML</td>
+            <td>HTML Básico</td>
+            <td>HTML Medio</td>
+            <td>HTML Avanzado</td>
+            <td>Ejercicios de HTML</td>
+            <td rowspan="4">Patinar</td>
+            <td rowspan="4">Descanso</td>
+        </tr>
+        <tr>
+            <td>Introduccion a CSS</td>
+            <td>CSS Básico</td>
+            <td>CSS Medio</td>
+            <td>CSS Avanzado</td>
+            <td>Ejercicios de CSS</td>
+        </tr>
+        <tr>
+            <td>Introduccion a Bootstrap</td>
+            <td>Bootstrap Básico</td>
+            <td>Bootstrap Medio</td>
+            <td>Bootstrap Avanzado</td>
+            <td>Ejercicios de Bootstrap</td>
+        </tr>
+
+    </table><br><br>
+    <h2>Ejercico de tabla</h2>
+    <table border="1">
+        <tr>
+            <th colspan="2"></th>
+            <th>Nombre</th>
+            <th>Masa (10 <sup>24</sup> kg)</th>
+            <th>Diámetro 8(km)</th>
+            <th>Densidad kg/m <sup>3</sup></th>
+            <th>Gravedad m/s <sup>2</sup></th>
+            <th>Duración del día (horas)</th>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4">Planetas terrestres</td>
+            <td>Mercurio</td>
+            <td>0,330</td>
+            <td>4.879</td>
+            <td>5.427</td>
+            <td>3,7</td>
+            <td>4.222,6</td>
+        </tr>
+        <tr>
+            <td>Venus</td>
+            <td>4,87</td>
+            <td>12.104</td>
+            <td>5.243</td>
+            <td>8,9</td>
+            <td>2.802,0</td>
+        </tr>
+        <tr>
+            <td>La Tierra</td>
+            <td>5,97</td>
+            <td>12.756</td>
+            <td>5.514</td>
+            <td>9,8</td>
+            <td>24,0</td>
+        </tr>
+        <tr>
+            <td>Marte</td>
+            <td>0,642</td>
+            <td>6.792</td>
+            <td>3.933</td>
+            <td>3,7</td>
+            <td>24,7</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Planetas jovianos</td>
+            <td rowspan="2">Los gigantes de gas</td>
+            <td>Júpiter</td>
+            <td>1.898</td>
+            <td>3,7</td>
+            <td>24,7</td>
+        </tr>
+    </table>
+    <br><br><br><br>
+
+    <form method="POST">
+        <h3>Registrate</h3>
+        <p>
+            <label for="nombre" aria-placeholder="">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre" required >
+        </p>
+        <p>
+            <label for="email">correo electrónico:</label>
+            <input type="email" name="email" placeholder="tucorreo@dominio.com" required>
+    
+        </p>
+        <p>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" placeholder="tu contraseña" required>
+    
+        </p>
+        <input type="submit" value="Registrar">
+
+        <p>
+            <select name="mese" id="">
+                <option value="">Enero</option>
+                <option value="">Febrero</option>
+                <option value="">Marzo</option>
+                <option value="">Abril</option>
+            </select>
+        </p>
+        <p>
+            <input type="radio" name="color" value="rojo">
+            <label for="color">Rojo</label>
+            <input type="radio" name="color" value="verde">
+            <label for="color">Verde</label>
+            <input type="radio" name="color" value="azul">
+            <label for="color">Azul</label>
+            <input type="radio" name="color" value="amarillo">
+            <label for="color">Amarillo</label>
+            
+        </p>
+
+        <textarea name="text" id="" cols="80" rows="20"></textarea>
+    
+    </form>
+</body>
+</html>

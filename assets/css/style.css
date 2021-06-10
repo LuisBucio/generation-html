@@ -1,0 +1,34 @@
+h1 {
+    color:gray;
+    text-align: center;
+}
+div{
+    height: 300px;/*Espacios hasta abajo*/
+    width: 300px;/*Ancho dek div*/
+    text-align: center;
+    /*background: chartreuse;/*color de fondo*/
+    /*background-image: url(../img/login.png);*/
+    margin: 20px;
+    border-radius: 20%;
+    padding: 50px;/*margen interno dentro del div*/
+}
+
+p{
+    font-size: 30px;
+    font-weight: 900;/*grosor de letra, no todas soportan el peso, el estandar es 400*/
+    font-style: oblique;/*tipo de letra*/
+    text-decoration: underline blue;/*subrayado en parte ingerior*/
+    text-transform: capitalize;/*cambia de mayuscula a minuscula*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*tipo de letra*/
+}
+.uno{
+
+    background-color: teal;
+}
+.dos{
+    background-image: url(../img/login.png);
+    background-repeat:no-repeat;
+   background-position: center;/*alinia la imagen que tiene de background*/
+   /*background-size: cover;/*ajusta al tamaño del div*/
+
+}

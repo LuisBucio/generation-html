@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(209, 52, 52);
+
+}
+h1{
+    color:black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    font-family: sans-serif;
+}
+.container{
+    height: 800px;
+    width: 600px;
+    margin: auto;
+   
+}
+.box {
+    width: 150px;
+    height: 150px;
+    color: white;
+  }
+  .box-2 {
+    width: 180px;
+    height: 250px;
+    color: white;
+    float: left;
+  }
+  
+  #one {
+    position: fixed;
+    top: 130px;
+    left: 500px;
+    background-image: url(/assets/img/HTML\ LOGO.png);
+    background-size: cover;
+  }
+  
+  .outer {
+    width: 380px;
+    height: 150px;
+    padding-left: 180px;
+  }
+
+  #two {
+    position: fixed;
+    top: 340px;
+    left: 500px;
+    background-image: url(/assets/img/css3.png);
+    background-size: cover;
+    
+   
+  }
+
+  p{
+      font-size: 12px;
+      font-family: sans-serif;
+  }
+
+.red{
+    color:red;
+}
+
+.fondo-w{
+    background-color: white;
+}

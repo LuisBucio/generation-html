@@ -1,0 +1,58 @@
+.caja{
+    width: 250px;
+    height: 100px;
+    margin-left: 30px;
+    float: left;
+}
+
+.uno{
+    background-color:rgb(109, 109, 109);
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-end-end-radius: 50%;
+}
+
+.dos{
+    background-color: rgb(109, 109, 109);
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-end-end-radius: 35%;
+}
+.tres{
+    background-color: rgb(109, 109, 109);
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-end-end-radius: 25%;
+
+}
+.cuatro{
+    background-color: rgb(109, 109, 109);
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 25% 60% ;
+
+}
+
+.cinco{
+    background-color: rgb(109, 109, 109);
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-end-end-radius: 15%;
+    border-start-start-radius: 16%;
+    border-top-right-radius: 17%;
+    border-bottom-left-radius: 18%;
+
+}
+.seis{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(109, 109, 109);
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+p{
+    color:white;
+    text-align: center;
+}
